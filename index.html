@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When2Meet</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>When2Meet</h1>
+    <nav>
+        <ul>
+            <li><a href="#Create-event">Create Event</a></li>
+            <li><a href="#Select-Ava">Select-avaliablity</a></li>
+            <li><a href="#View-Result">View Results</a></li>
+            <li><a href="#sign-up">Sign up</a></li>
+        </ul>
+    </nav>
+    <div>
+    <h2 id="Create-event">Create Event</h2>
+    <form action="" method="post">
+        <label for="Name">Event Name:</label>
+        <input type="text" name="eventname" id="eventname" required />
+        <label for="Event-Description">Event-Description: </label>
+        <textarea name="Event-Description" id="Event-Description"></textarea>
+        <label for="Start Date">Start Date: </label>
+        <input type="date" name="StartDate" id="StartDate" required />
+        <label for="End Date">End Date: </label>
+        <input type="date" name="EndDate" id="EndDate" required />
+        <label for="Time Increment">Time Increment: </label>
+        <select name="Time increment" id="Time-Inc">
+            <option value="15 Minutes">15 Minutes</option>
+            <option value="30 Minutes">30 Minutes</option>
+            <option value="35 Minutes">35 Minutes</option>
+            <option value="40 Minutes">40 Minutes</option>
+            <option value="45 Minutes">45 Minutes</option>
+            <option value="50 Minutes">50 Minutes</option>
+        </select>
+        <input type="button" value="Create Event" />
+    </form>
+</div>
+
+    <h2 id="Select-Ava">Input Avaliablity</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>9 : 00 AM</strong></td>
+                <td><input type="checkbox" name="Monday" id=""></td>
+                <td><input type="checkbox" name="Tuesday" id=""></td>
+                <td><input type="checkbox" name="Wednesday" id=""></td>
+                <td><input type="checkbox" name="Thursday" id=""></td>
+            </tr>
+            <tr>
+                <td><strong>10 : 00 AM</strong></td>
+                <td><input type="checkbox" name="Monday" id=""></td>
+                <td><input type="checkbox" name="Tuesday" id=""></td>
+                <td><input type="checkbox" name="Wednesday" id=""></td>
+                <td><input type="checkbox" name="Thursday" id=""></td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="button" value="Submit Avaliablity" />
+
+    <h2 id="#View-Result">View Results</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>9 : 00 AM</strong></td>
+                <td>2 Avaliable</td>
+                <td>1 Avaliable</td>
+                <td>4 Avaliable</td>
+                <td>3 Avaliable</td>
+            </tr>
+            <tr>
+                <td><strong>10 : 00 AM</strong></td>
+                <td>0 Avaliable</td>
+                <td>2 Avaliable</td>
+                <td>1 Avaliable</td>
+                <td>9 Avaliable</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <label for="Sharable Link"> Sharable link: </label> <a href="">https://When2Meet.com/event?id=123456</a>
+
+    <h2 id="Sign-up">Sign up</h2>
+
+    <form action="" method="post">
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username" required />
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="email" required />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required />
+        <input type="submit" value="Sign up" />
+    </form>
+
+    <br>
+<div>
+    &copy;2024 When2Meet. Allrights Reserved.
+</div>
+
+</body>
+
+</html>

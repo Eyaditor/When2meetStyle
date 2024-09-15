@@ -1,0 +1,44 @@
+nav {
+    background-color: rgb(202, 196, 197);
+}
+
+nav ul li{
+    display: inline;
+    border-left:4px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 32px;
+}
+
+table {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+table tr th{
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+table tr td{
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+div label{
+    display: block;
+    padding: 10px;
+}
+
+div{
+    border: 1px solid rgb(0, 225, 255);
+    padding-bottom: 20px;
+    padding: 10px;
+}
+
+nav ul li:last-child {
+    float: right;
+}
